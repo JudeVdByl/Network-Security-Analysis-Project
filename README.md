@@ -39,7 +39,7 @@ Nmap scans revealed several vulnerabilities within the network. Below is a summa
 - **Issue**: Port 80 is open, which is used for unencrypted HTTP traffic.
 - **Implications**: Unencrypted traffic can lead to various attacks such as SQL injections, cross-site scripting, and more. Sensitive data transmitted over HTTP is vulnerable to interception.
 
-![Nmap Scan for Port 80]![image](https://github.com/user-attachments/assets/49ee50a9-0524-43c1-86da-31b3caf741ff)
+![Nmap Scan for Port 80](https://github.com/user-attachments/assets/49ee50a9-0524-43c1-86da-31b3caf741ff)
 
 
 #### Vulnerability 2: Insecure FTP Traffic
