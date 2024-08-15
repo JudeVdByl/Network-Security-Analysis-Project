@@ -19,7 +19,8 @@ Conduct a comprehensive network security analysis using Nmap and Wireshark to id
 ### 1. Network Topology Discovery with Nmap
 I used Zenmap to scan the network range `10.168.27.0/24`. The network topology identified was a Star topology, consisting of the following devices:
 
-![Network Topology](screenshot1.png)
+![Network Topology](![image](https://github.com/user-attachments/assets/f17308df-b19d-4318-9dee-84c944feb018)
+)
 
 | Host          | State | Open Ports | OS                                            |
 | ------------- | ----- | ---------- | --------------------------------------------- |
