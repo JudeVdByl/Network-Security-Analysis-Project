@@ -1,7 +1,7 @@
 # Network Security Analysis Project
 
 ## Objective
-Conduct a comprehensive network security analysis using Nmap and Wireshark to identify potential vulnerabilities and anomalies within the network, and provide recommended solutions to mitigate these issues.
+Conducted a comprehensive network security analysis using Nmap and Wireshark to identify potential vulnerabilities and anomalies within the network, and provide recommended solutions to mitigate these issues.
 
 ## Skills Learned
 - Network topology analysis
