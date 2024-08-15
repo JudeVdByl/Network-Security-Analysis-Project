@@ -19,7 +19,7 @@ Conduct a comprehensive network security analysis using Nmap and Wireshark to id
 ### 1. Network Topology Discovery with Nmap
 I used Zenmap to scan the network range `10.168.27.0/24`. The network topology identified was a Star topology, consisting of the following devices:
 
-![Network Topology](https://github.com/user-attachments/assets/f17308df-b19d-4318-9dee-84c944feb018)
+![Network Topology](https://github.com/user-attachments/assets/8ac99713-73e9-42ec-954d-b49fd660652b)
 
 
 | Host          | State | Open Ports | OS                                            |
@@ -39,7 +39,8 @@ Nmap scans revealed several vulnerabilities within the network. Below is a summa
 - **Issue**: Port 80 is open, which is used for unencrypted HTTP traffic.
 - **Implications**: Unencrypted traffic can lead to various attacks such as SQL injections, cross-site scripting, and more. Sensitive data transmitted over HTTP is vulnerable to interception.
 
-![Nmap Scan for Port 80](screenshot2.png)
+![Nmap Scan for Port 80]![image](https://github.com/user-attachments/assets/49ee50a9-0524-43c1-86da-31b3caf741ff)
+
 
 #### Vulnerability 2: Insecure FTP Traffic
 - **Host**: 10.168.27.15
