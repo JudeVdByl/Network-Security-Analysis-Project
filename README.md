@@ -47,14 +47,16 @@ Nmap scans revealed several vulnerabilities within the network. Below is a summa
 - **Issue**: Port 21 is open, used for FTP, which transmits data in clear text.
 - **Implications**: Data transmitted via FTP can be easily intercepted, compromising confidentiality and integrity. This can expose sensitive information and network credentials.
 
-![Nmap Scan for Port 21](screenshot3.png)
+![Nmap Scan for Port 21](https://github.com/user-attachments/assets/2a4407d9-9076-4e06-8fc2-4e618519b91b)
+
 
 #### Vulnerability 3: End of Life Operating System
 - **Host**: 10.168.27.15
 - **Issue**: The operating system detected is Microsoft Windows Server 2008 R2 or Windows 8.1, both of which are no longer supported.
 - **Implications**: Using an unsupported OS exposes the system to unpatched vulnerabilities, increasing the risk of exploitation over time.
 
-![Nmap Scan for OS](screenshot4.png)
+![Nmap Scan for OS]((https://github.com/user-attachments/assets/41c4cb01-e3a8-427f-8db8-b94af2cfed4b)
+
 
 ### 3. Anomaly Detection with Wireshark
 Using Wireshark, I analyzed the `Pcap3.pcapng` file and identified the following anomalies:
@@ -63,13 +65,15 @@ Using Wireshark, I analyzed the `Pcap3.pcapng` file and identified the following
 - **Description**: Credentials are being transmitted over unencrypted HTTP traffic. This includes sensitive information such as passwords, which were detected using the term "TCP contains password."
 - **Implications**: The transmission of credentials in plain text severely compromises security, making it easy for attackers to intercept and misuse this information.
 
-![Wireshark Capture - Unencrypted HTTP Traffic](screenshot5.png)
+![Wireshark Capture - Unencrypted HTTP Traffic](https://github.com/user-attachments/assets/7aa7167b-0a23-4ae8-96bc-21649671e5b4)
+
 
 #### Anomaly 2: TCP ACKed Unseen Segment
 - **Description**: The trace indicates a missing segment that was acknowledged by an ACK packet. This could be due to Wireshark's limitations in capturing all packets, leading to potential oversight of data.
 - **Implications**: Missing packets can result in undetected vulnerabilities or incomplete analysis, leading to a false sense of security.
 
-![Wireshark Capture - TCP ACKed Unseen Segment](screenshot6.png)
+![Wireshark Capture - TCP ACKed Unseen Segment](https://github.com/user-attachments/assets/ff91bbfb-4fa9-4aa0-a33d-b967a6964881)
+
 
 ### 4. Recommendations for Mitigating Vulnerabilities and Anomalies
 
