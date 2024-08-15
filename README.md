@@ -55,7 +55,7 @@ Nmap scans revealed several vulnerabilities within the network. Below is a summa
 - **Issue**: The operating system detected is Microsoft Windows Server 2008 R2 or Windows 8.1, both of which are no longer supported.
 - **Implications**: Using an unsupported OS exposes the system to unpatched vulnerabilities, increasing the risk of exploitation over time.
 
-![Nmap Scan for OS]((https://github.com/user-attachments/assets/41c4cb01-e3a8-427f-8db8-b94af2cfed4b)
+![Nmap Scan for OS](https://github.com/user-attachments/assets/41c4cb01-e3a8-427f-8db8-b94af2cfed4b)
 
 
 ### 3. Anomaly Detection with Wireshark
